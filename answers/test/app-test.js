@@ -1,8 +1,8 @@
 const assert = require("assert");
 const { add, fizzBuzz, gatherNamesOf } = require("../app");
 
-//add
-describe("add", () => {
+//add (activity folder answers)
+describe("tests for the add function", () => {
   it("should add 2 numbers together", () => {
     //Setup
     const inputNumber1 = 2;
@@ -22,6 +22,8 @@ describe("add", () => {
     //Verify
     assert.strictEqual(actual, expected);
   });
+
+  //extension challenge
   it("should be able to handle 0", () => {
     //Setup
     const inputNumber1 = 0;
@@ -43,7 +45,7 @@ describe("add", () => {
   });
 });
 
-// ------------- Challenge Activity ------------
+// ------------- Challenge Activity ------------ (bonusChallenge folder)
 //FizzBuzz
 describe("fizzBuzz", () => {
   it("it should return Fizz when the value is multiple of 3 but not of 5", () => {
