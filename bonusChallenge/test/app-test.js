@@ -1,4 +1,4 @@
-// Step 1. First and foremost, set up mocha in this folder!
+// Step 1. First and foremost, set up mocha. Make sure you are in the bonusChallenge folder!
 // How to: Remember to npm init, npm install mocha -D, add script test line to package.json
 // Follow the Google doc steps of how you did in the activity folder if you forget.
 
@@ -8,9 +8,7 @@ const assert = require("assert");
 //Import functions from app.js
 const { fizzBuzz, gatherNamesOf } = require("../app");
 
-describe("tests for the fizzBuzz function", () => {
-
-})
+describe("tests for the fizzBuzz function", () => {});
 
 /*
   * Step 2. Create unit tests for FizzBuzz. 
@@ -25,9 +23,7 @@ describe("tests for the fizzBuzz function", () => {
   Don't forget to use the steps of setup, exercise and verify to guide you in writing tests. 
 */
 
-describe("tests for the gatherNamesOf function", () => {
-
-})
+describe("tests for the gatherNamesOf function", () => {});
 
 /* Step 3. Create unit tests for the gatherNamesOf function. Unit tests to write:
     1. It should should return an array
