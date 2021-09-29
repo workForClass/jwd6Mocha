@@ -1,4 +1,5 @@
 const assert = require("assert");
+// fizzbuzz and gatherNamesOf comes from the bonus activity 
 const { add, fizzBuzz, gatherNamesOf } = require("../app");
 
 //add (activity folder answers)
