@@ -14,8 +14,8 @@ describe("tests for the fizzBuzz function", () => {});
   * Step 2. Create unit tests for FizzBuzz. 
   You should create an unit test for each functionality of the FizzBuzz function. 
   Unit tests to write: 
-    1. it should return Fizz when the value is multiple of 3 but not of 5
-    2. it should return Buzz when the value is multiple of 5 but not of 3
+    1. it should return Fizz when the value is multiple of 3 
+    2. it should return Buzz when the value is multiple of 5 
     3. it should return FizzBuzz when the value is multiple of 3 and 5
     4. should return the number given when the value is not multiple of 3 or 5
   NOTE: After each unit test, use it to guide you on what code you need to write in app.js 
