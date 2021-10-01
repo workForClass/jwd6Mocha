@@ -15,8 +15,10 @@
 const fizzBuzz = () => {};
 
 /*Implement the gatherNamesOf function as needed to guarantee that:
-  1- the function receives an array of objects with people names as a parameter and returns the property name value.
-  Ex: The array of objects is: [{name: 'John'}, {name:'Patricia'}]. It should return ['John', 'Patricia'];
+  1- the function receives an array of objects with people names as a parameter and 
+  returns an array with each object's property name value.
+  Ex: The array of objects given to gatherNamesOf is: [{name: 'John'}, {name:'Patricia'}]. 
+  It should return ['John', 'Patricia'];
   Write the code as you complete each it test in the test/app-test.js. 
 */
 const gatherNamesOf = () => {};
